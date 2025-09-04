@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anil Kumar - Student & Freelancer</title>
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; line-height:1.6; background:#f8fafc; }
+    header { background:#1e293b; color:#fff; padding:20px; text-align:center; }
+    nav a { color:white; margin:0 12px; text-decoration:none; font-weight:bold; }
+    section { padding:50px 20px; max-width:900px; margin:auto; }
+    h1, h2 { color:#1e293b; }
+    .hero { text-align:center; background:#e2e8f0; padding:80px 20px; border-radius:10px; }
+    .projects { display:grid; grid-template-columns: repeat(auto-fit, minmax(250px,1fr)); gap:20px; }
+    .card { background:white; padding:20px; box-shadow:0 2px 5px rgba(0,0,0,0.1); border-radius:10px; }
+    footer { text-align:center; padding:20px; background:#1e293b; color:white; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Anil Kumar</h1>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#business">Business</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>Hi, I'm Anil Kumar 👋</h2>
+    <p>A <strong>Student, Freelancer, and Business Enthusiast</strong> passionate about building websites, designs, and future business ideas.</p>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a student with a deep interest in business and freelancing. I enjoy learning new skills like web development, graphic designing, and video editing. My dream is to build my own business while helping others through freelancing.</p>
+  </section>
+
+  <section id="skills">
+    <h2>My Skills</h2>
+    <ul>
+      <li>🌐 Web Development (HTML, CSS, JavaScript)</li
+      <li>🎬 Video Editing (CapCut, Premiere Pro)</li>
+      <li>💼 Business Knowledge (E-commerce, Branding)</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>My Projects</h2>
+    <div class="projects">
+      <div class="card">
+        <h3>Demo Business Website</h3>
+        <p>A sample e-commerce website for T-shirt store.</p>
+        <a href="#">View Demo</a>
+      </div>
+      <div class="card">
+        <h3>Portfolio Website</h3>
+        <p>My personal portfolio site showcasing my skills.</p>
+        <a href="#">View Demo</a>
+      </div>
+      <div class="card">
+        <h3>Thumbnail & Logo Design</h3>
+        <p>Creative YouTube thumbnails and business logos.</p>
+        <a href="#">View Samples</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="business">
+    <h2>My Business Interest</h2>
+    <p>As a student, I am learning freelancing to earn and gain experience. 
+       My future goal is to start my own business in online sales and digital services, 
+       like selling T-shirts and mobile accessories.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>📩 Email: yourname@gmail.com</p>
+    <p>💼 Fiverr: <a href="https://www.fiverr.com/yourprofile" target="_blank">fiverr.com/yourprofile</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Anil Kumar | Student & Future Entrepreneur</p>
+  </footer>
+
+</body>
+</html>
